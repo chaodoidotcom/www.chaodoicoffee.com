@@ -1,0 +1,223 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: @screen-xs-max) { ... }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+body{
+  font-family:supermarket;
+  font-size:18px;
+}
+
+/* global anchor */
+a.bk,
+a.bk_active{
+color:black;
+text-decoration:none;
+}
+
+a.bk_active{text-decoration:underline;}
+
+.white_text{
+color:white !important;
+}
+
+a.bk:hover,
+a.white_text:hover{
+color:#056839 !important;
+/* color:white !important; */
+}
+
+.center{
+  text-align:center;
+}
+
+/* Flag anchor */
+#langCon{
+margin-top:5px;
+text-align:right;
+}
+
+a.squareFlag{
+display:inline-block;
+height:15px;width:30px;
+margin-right:5px;
+}
+
+a.roundFlag{
+display:inline-block;
+height:18px;width:18px;
+margin-right:5px;
+}
+
+a.squareFlag:hover,
+a.roundFlag:hover{
+cursor:pointer;
+}
+
+a.activated{
+text-decoration:underline;
+}
+
+/* global image */
+img.defaultImg{
+position:relative;
+display:none;
+}
+
+.hoverable:hover{cursor:pointer;}
+
+/* core div */
+/* core div */
+/* core div */
+
+/*#bodyDiv{}*/
+/*#headerDiv{}*/
+/*#mainMenuDiv{}*/
+
+#bodyDiv{
+min-height:400px;
+}
+
+#footerDiv{
+min-height:100px;
+background-color:#ccc;
+}
+
+/* header */
+#logoCon{
+float:left;
+height:78px;width:100px;
+margin:5px;
+overflow:hidden;
+}
+
+#mainMenuDiv{background-color:#b2b2b2;}
+
+div.mainMenuList{
+padding:0px;
+}
+
+a.mainMenuList{
+display:block;
+line-height:35px;
+text-decoration:none;
+text-align:center;
+letter-spacing:2px;
+font-weight:bold;
+color:black;
+}
+a.mainMenuList:hover{
+cursor:pointer;
+background-color:#a6a6a6;
+}
+
+a.mainMenuList_activated{background-color:#999;}
+
+/* footer */
+#footerAddress{
+height:auto;width:500px;
+margin-top:10px;
+}
+
+div.followFBDiv{
+margin-top:10px;
+text-align:right;
+}
+div.followFBDiv:hover{cursor:pointer;}
+
+a.followFBText{
+line-height:20px;
+margin:0px 5px 0px 0px;
+}
+
+span.followFBButton{
+display:inline-block;
+height:20px;width:20px;
+margin:0px 0px 0px 5px;
+}
+
+/* debug */
+#showInfo{
+margin:10px auto 0px;
+padding:10px 50px 10px;
+font-size:16px;
+color:black;
+background-color:#ccc;
+}
+
+/* */
+div.noMoreDiv{
+display:block;
+margin:20px auto;
+letter-spacing:3px;
+text-align:center;
+}
+
+td.compareInfo{
+text-align:center;
+font-size:1.1em;
+font-weight:bold;
+}
+
+td.compareImg{
+width:350px;
+text-align:center;
+}
+
+div.compareImgDiv{
+height:350px;width:350px;
+text-align:center;
+}
+
+/* grey scale */
+/*img{
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+}
+
+.dot-nav a.active, .dot-nav a:hover,
+.box-banners .slick-dots li.slick-active button:before{
+  background: #4a4a4a !important;
+}
+
+.main-menu li a:hover, .main-menu li.active a,
+.green{
+  color: #4a4a4a !important;
+}
+
+.grayscale_bg, .s-news, .s-video,
+.footer, .bg-about, .page, .bg-testimonial{
+  -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale") !important;
+  -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale") !important;
+  -webkit-filter: grayscale(90%) !important;
+  filter: gray !important;
+}
+
+#ribbon{
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:150px;
+  width:150px;
+  z-index:999;
+  background-image:url('/public/images/ribbon_3.png');
+  background-repeat:no-repeat;
+  background-position:left top;
+  background-size:contain;
+}*/
+
+.home_news_image_container{
+  height:225px;
+  width:100%;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+}
